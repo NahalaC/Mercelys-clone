@@ -1,0 +1,443 @@
+
+     /*Home page*/
+.home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heading-div {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #642c8d;
+    margin-top: 90px;
+}
+
+.heading-div h2 {
+
+    font-size: 28px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container .products {
+    width: 35%;
+
+}
+
+.image-container .dq {
+    width: 35%;
+    margin-left: 45px;
+}
+
+.content {
+    width: 100%;
+    height: 18pc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content p {
+    text-align: center;
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 19px;
+    color: #642c8d;
+}
+
+
+
+
+
+/*  Our journey 2nd Section */
+
+
+
+.journey{
+    background-color: var(--bg-color-yellow);
+    color: #642c8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6pc 0 6pc 0;
+}
+
+.inside-journey{
+    width: 95%;
+
+}
+
+.journey-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-journey{
+    width: 80%;
+}
+
+.our-journey h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 4pc;
+
+}
+
+
+.our-journey p {
+    font-size: 16px;
+    align-content: center;
+    font-weight: 480;
+}
+
+
+
+.about-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.row-1,.row-2{
+    display: flex;
+}
+
+.col-1,.col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents{
+    width: 35%;
+}
+
+.contents h3{
+    margin-bottom: 2pc;
+}
+
+
+.products-icon img{
+    width: 200px;
+}
+
+
+/*  Products section 3 */
+.product-parent{
+    width: 100%;
+    height: 34pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4pc;
+    overflow: hidden;
+}
+.products-description{
+    width: 80%;
+    
+    
+}
+
+.choice-content{
+    color: #642c8d;
+}
+.choice-content h1{
+    margin-bottom: 3pc;
+    
+}
+.choice-content p{
+    font-weight: 700;
+    font-size: 19px;
+
+}
+.ice-creams h2{
+    text-align: left;
+   
+    color: #fff;
+   
+}
+.ice-creams{
+    height: 10pc;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.icecreams-types{
+    display: flex;
+    background-color: #642c8d;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 3pc;
+}
+/*  Facilities section4 */
+
+.facilities-div{
+    width: 100%;
+    height: 600px;
+   color: #642c8d;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+    background-color: var(--bg-color-yellow);
+    padding-top: 5pc;
+
+}
+.facilities-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.facilities-content h2{
+    width: 80%;
+    text-align: left;
+    margin-bottom: 4pc;
+   
+    
+}
+.facilites-video{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3pc ;
+}
+.ad-video{
+    margin-right:4pc;
+    cursor: pointer;
+
+    
+}
+
+
+.ad-content p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.ad-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20pc ;
+}
+
+ /*ad showcase section5*/
+
+.ad{
+    width: 100%;
+    height: 45pc;
+    background-color: #fff;
+   align-items: center;
+   justify-content: center;
+   color: #642c8d;
+   display: flex;
+
+}
+.adshowcase-div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ad2 iframe{
+    align-items: center;
+    margin-bottom: 5pc;
+  
+    
+    
+}
+.adshowcase-div h2{
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 3pc;
+    
+
+}
+/*Contacts section6*/
+
+.contact-div{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-yellow);
+    color: #642c8d;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+}
+
+.contacts{
+    width: 80%;
+    height: 100%;
+    padding: 5pc 0; 
+   
+
+}
+
+.contact-details{
+    width: 100%;
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.contact-details h2{
+    text-align: center;
+    margin-top: 6pc;
+}
+.name input{
+    width: 100%;
+    margin-top: 2pc;
+   
+
+}
+
+.email-box{
+    width: 48%;
+   
+    
+}
+
+.number-box{
+    width: 48%;
+   
+
+}
+
+.name input,.email-phone input{
+    
+    height: 55px;
+    padding: 1pc;
+    border: none;
+    outline: none;
+}
+
+.email-phone{
+    display: flex;
+    justify-content: space-between;
+    margin-top:2pc ;
+}
+.messagebox{
+    width: 100%;
+    margin-top:2pc ;
+    height: 150px;
+}
+.messagebox textarea{
+    height: 100%;
+    padding: 1pc;
+    border: none;
+    outline: none;
+}
+
+.submit-btn{
+    text-align: right;
+   margin-top: 1pc;
+}
+
+.submit-btn button{
+    background: transparent;
+    border: 2px solid #2ea3f2;
+    padding: 8px 12px;
+    color: #2ea3f2;
+    transition:  0.8s;
+    cursor: pointer;
+    font-size:  25px ;
+}
+
+.submit-btn button:hover{
+    border: none;
+    background-color: rgba(194, 194, 194, 0.479);
+}
+
+
+
+/* Footer  Section7*/
+
+
+footer .main{
+    width: 100%;
+    background-color: #642c8d;
+    display: flex;
+    justify-content: center;
+  
+ 
+   
+}
+.footer-div{
+    width: 80%;
+    height: 350px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #642c8d;
+}
+.main .right-side{
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 100%;
+justify-content: center;
+}
+.right-side a{
+    margin-bottom: 2pc;
+    text-decoration: none;
+}
+.left-side{
+    width: 50%;
+   
+    height: 100%;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   padding: 2pc 4pc;
+   
+}
+.left-side p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3pc;
+
+
+
+}
+.left-side .social-media{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side .social-media img{
+    cursor: pointer;
+}
+
+
+
+
+
